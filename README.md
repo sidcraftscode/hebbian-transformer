@@ -1,4 +1,4 @@
-# Hebbian Transformers
+# Enabling Robust In-Context Memory and Rapid Task Adaptation in Transformers with Hebbian and Gradient-Based Plasticity
 
 This repository contains reference implementations and experiment scripts for the paper *Enabling Robust In-Context Memory and Rapid Task Adaptation in Transformers with Hebbian and Gradient-Based Plasticity*.  The code equips decoder-only Transformers with fast-weight components that are updated via neuromodulated Hebbian or gradient-based plasticity rules and evaluates them on the suite of tasks introduced by Duan et al.\ (2023).
 
