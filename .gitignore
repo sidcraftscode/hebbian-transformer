@@ -2,7 +2,6 @@
 .venv/
 __pycache__/
 *.py[cod]
-experiments/results/*.json
 logs/
 figures/*.png
 figures/*.pdf

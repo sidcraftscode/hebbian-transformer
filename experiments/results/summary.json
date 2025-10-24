@@ -1,0 +1,771 @@
+{
+  "classification_cifarfs": {
+    "gradient": {
+      "dataset": "cifarfs",
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.7828613791366419,
+        "loss_std": 0.06308331556100241,
+        "accuracy_mean": 0.2735999999999999,
+        "accuracy_std": 0.03755047960437415,
+        "eta_mean_mean": 0.11611423933971672,
+        "eta_mean_std": 0.010150424565477014,
+        "eta_std_mean": 0.006943821815956336,
+        "eta_std_std": 0.0030064282420336763,
+        "plastic_norm_mean_mean": 2.3356670890779086e-05,
+        "plastic_norm_mean_std": 1.7110024174601655e-05,
+        "plastic_norm_std_mean": 1.3058686378740204e-05,
+        "plastic_norm_std_std": 8.869167773523045e-06,
+        "train_loss_mean": 1.5144263394673667,
+        "train_loss_std": 0.027083089628976445,
+        "train_eta_mean_mean": 0.11241099754988682,
+        "train_eta_mean_std": 0.007172291097455905,
+        "train_eta_std_mean": 0.011196864659952906,
+        "train_eta_std_std": 0.004930942187386433,
+        "train_plastic_norm_mean_mean": 1.7612578088797016e-05,
+        "train_plastic_norm_mean_std": 1.0754002772566769e-05,
+        "train_plastic_norm_std_mean": 1.3976038102712698e-05,
+        "train_plastic_norm_std_std": 8.981077870629232e-06,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "train": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 1,
+          "queries": 15,
+          "split": "train",
+          "dataset": "cifarfs"
+        },
+        "val": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 1,
+          "queries": 15,
+          "split": "test",
+          "dataset": "cifarfs"
+        }
+      },
+      "training_config": {
+        "epochs": 5,
+        "episodes_per_epoch": 80,
+        "val_episodes": 50,
+        "lr": 0.001,
+        "weight_decay": 0.0005,
+        "clip_norm": 5.0
+      },
+      "source_file": "classification_cifarfs_rule-gradient.json"
+    },
+    "hebbian": {
+      "dataset": "cifarfs",
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.564450370254285,
+        "loss_std": 0.13236121512207763,
+        "accuracy_mean": 0.3194666666666666,
+        "accuracy_std": 0.01748785822178302,
+        "eta_mean_mean": 7.430767542306663e-05,
+        "eta_mean_std": 5.102000544747417e-06,
+        "eta_std_mean": 1.7872541459956953e-05,
+        "eta_std_std": 8.402096832672232e-06,
+        "plastic_norm_mean_mean": 0.006786418820822756,
+        "plastic_norm_mean_std": 0.001863336118149194,
+        "plastic_norm_std_mean": 0.006737501709873538,
+        "plastic_norm_std_std": 0.002148407772112887,
+        "train_loss_mean": 1.4832173881530768,
+        "train_loss_std": 0.03853625661250375,
+        "train_eta_mean_mean": 7.774635902270195e-05,
+        "train_eta_mean_std": 3.4044829594304396e-06,
+        "train_eta_std_mean": 2.2745680845532144e-05,
+        "train_eta_std_std": 7.270093170766874e-06,
+        "train_plastic_norm_mean_mean": 0.0061068962084035875,
+        "train_plastic_norm_mean_std": 0.001319419682137203,
+        "train_plastic_norm_std_mean": 0.00598588650129711,
+        "train_plastic_norm_std_std": 0.0015755436383211214,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "train": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 1,
+          "queries": 15,
+          "split": "train",
+          "dataset": "cifarfs"
+        },
+        "val": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 1,
+          "queries": 15,
+          "split": "test",
+          "dataset": "cifarfs"
+        }
+      },
+      "training_config": {
+        "epochs": 5,
+        "episodes_per_epoch": 80,
+        "val_episodes": 50,
+        "lr": 0.001,
+        "weight_decay": 0.0005,
+        "clip_norm": 5.0
+      },
+      "source_file": "classification_cifarfs_rule-hebbian.json"
+    },
+    "none": {
+      "dataset": "cifarfs",
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.6575144482831157,
+        "loss_std": 0.1601525214954057,
+        "accuracy_mean": 0.2887111111111111,
+        "accuracy_std": 0.028359874279266572,
+        "eta_mean_mean": 0.0,
+        "eta_mean_std": 0.0,
+        "eta_std_mean": 0.0,
+        "eta_std_std": 0.0,
+        "plastic_norm_mean_mean": 0.0,
+        "plastic_norm_mean_std": 0.0,
+        "plastic_norm_std_mean": 0.0,
+        "plastic_norm_std_std": 0.0,
+        "train_loss_mean": 1.4820145619710285,
+        "train_loss_std": 0.02963465852230599,
+        "train_eta_mean_mean": 0.0,
+        "train_eta_mean_std": 0.0,
+        "train_eta_std_mean": 0.0,
+        "train_eta_std_std": 0.0,
+        "train_plastic_norm_mean_mean": 0.0,
+        "train_plastic_norm_mean_std": 0.0,
+        "train_plastic_norm_std_mean": 0.0,
+        "train_plastic_norm_std_std": 0.0,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "train": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 1,
+          "queries": 15,
+          "split": "train",
+          "dataset": "cifarfs"
+        },
+        "val": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 1,
+          "queries": 15,
+          "split": "test",
+          "dataset": "cifarfs"
+        }
+      },
+      "training_config": {
+        "epochs": 5,
+        "episodes_per_epoch": 80,
+        "val_episodes": 50,
+        "lr": 0.001,
+        "weight_decay": 0.0005,
+        "clip_norm": 5.0
+      },
+      "source_file": "classification_cifarfs_rule-none.json"
+    }
+  },
+  "classification_omniglot": {
+    "gradient": {
+      "dataset": "omniglot",
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.6111111659261912,
+        "loss_std": 0.0016942330279127262,
+        "accuracy_mean": 0.2007111111111111,
+        "accuracy_std": 0.011774339120663838,
+        "eta_mean_mean": 0.061123870717982455,
+        "eta_mean_std": 0.015210655657735512,
+        "eta_std_mean": 0.0001979225717267619,
+        "eta_std_std": 0.0001244381125305405,
+        "plastic_norm_mean_mean": 2.0139177969656456e-07,
+        "plastic_norm_mean_std": 1.1098509415367487e-07,
+        "plastic_norm_std_mean": 8.106066345431591e-08,
+        "plastic_norm_std_std": 5.133364050599731e-08,
+        "train_loss_mean": 1.6120701995849611,
+        "train_loss_std": 0.00031271478101457486,
+        "train_eta_mean_mean": 0.060726721726978815,
+        "train_eta_mean_std": 0.015181326709046934,
+        "train_eta_std_mean": 0.0011633807093932508,
+        "train_eta_std_std": 2.5924664700122365e-05,
+        "train_plastic_norm_mean_mean": 2.5315152584911203e-07,
+        "train_plastic_norm_mean_std": 1.346338756543559e-07,
+        "train_plastic_norm_std_mean": 1.1472834984684388e-07,
+        "train_plastic_norm_std_std": 6.356508574125042e-08,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "train": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 5,
+          "queries": 15,
+          "split": "train",
+          "dataset": "omniglot"
+        },
+        "val": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 5,
+          "queries": 15,
+          "split": "test",
+          "dataset": "omniglot"
+        }
+      },
+      "training_config": {
+        "epochs": 5,
+        "episodes_per_epoch": 100,
+        "val_episodes": 50,
+        "lr": 0.001,
+        "weight_decay": 0.0005,
+        "clip_norm": 5.0
+      },
+      "source_file": "classification_omniglot_rule-gradient.json"
+    },
+    "hebbian": {
+      "dataset": "omniglot",
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.6178817867517472,
+        "loss_std": 0.020043676742140328,
+        "accuracy_mean": 0.23697777777777773,
+        "accuracy_std": 0.027932051592620927,
+        "eta_mean_mean": 3.9094466978440324e-06,
+        "eta_mean_std": 2.4090413968794578e-06,
+        "eta_std_mean": 1.8037610980388514e-06,
+        "eta_std_std": 2.488369855855819e-06,
+        "plastic_norm_mean_mean": 0.007464394520461296,
+        "plastic_norm_mean_std": 0.0031231874799625046,
+        "plastic_norm_std_mean": 0.00674037169207639,
+        "plastic_norm_std_std": 0.002841341260166956,
+        "train_loss_mean": 1.6135645382351342,
+        "train_loss_std": 0.004733230264498179,
+        "train_eta_mean_mean": 3.876988729120967e-06,
+        "train_eta_mean_std": 1.8184361507849997e-06,
+        "train_eta_std_mean": 6.069282952617263e-07,
+        "train_eta_std_std": 3.234840225918847e-07,
+        "train_plastic_norm_mean_mean": 0.00766755342614719,
+        "train_plastic_norm_mean_std": 0.0031852650198927936,
+        "train_plastic_norm_std_mean": 0.006878694632416408,
+        "train_plastic_norm_std_std": 0.002873918377184789,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "train": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 5,
+          "queries": 15,
+          "split": "train",
+          "dataset": "omniglot"
+        },
+        "val": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 5,
+          "queries": 15,
+          "split": "test",
+          "dataset": "omniglot"
+        }
+      },
+      "training_config": {
+        "epochs": 5,
+        "episodes_per_epoch": 100,
+        "val_episodes": 50,
+        "lr": 0.001,
+        "weight_decay": 0.0005,
+        "clip_norm": 5.0
+      },
+      "source_file": "classification_omniglot_rule-hebbian.json"
+    },
+    "none": {
+      "dataset": "omniglot",
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.6113204264534844,
+        "loss_std": 0.0034556571993581693,
+        "accuracy_mean": 0.19217777777777778,
+        "accuracy_std": 0.019958277468413277,
+        "eta_mean_mean": 0.0,
+        "eta_mean_std": 0.0,
+        "eta_std_mean": 0.0,
+        "eta_std_std": 0.0,
+        "plastic_norm_mean_mean": 0.0,
+        "plastic_norm_mean_std": 0.0,
+        "plastic_norm_std_mean": 0.0,
+        "plastic_norm_std_std": 0.0,
+        "train_loss_mean": 1.6140890435112842,
+        "train_loss_std": 0.0008605898415307927,
+        "train_eta_mean_mean": 0.0,
+        "train_eta_mean_std": 0.0,
+        "train_eta_std_mean": 0.0,
+        "train_eta_std_std": 0.0,
+        "train_plastic_norm_mean_mean": 0.0,
+        "train_plastic_norm_mean_std": 0.0,
+        "train_plastic_norm_std_mean": 0.0,
+        "train_plastic_norm_std_std": 0.0,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "train": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 5,
+          "queries": 15,
+          "split": "train",
+          "dataset": "omniglot"
+        },
+        "val": {
+          "root": "./data",
+          "ways": 5,
+          "shots": 5,
+          "queries": 15,
+          "split": "test",
+          "dataset": "omniglot"
+        }
+      },
+      "training_config": {
+        "epochs": 5,
+        "episodes_per_epoch": 100,
+        "val_episodes": 50,
+        "lr": 0.001,
+        "weight_decay": 0.0005,
+        "clip_norm": 5.0
+      },
+      "source_file": "classification_omniglot_rule-none.json"
+    }
+  },
+  "copying": {
+    "gradient": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.3517974747982631,
+        "loss_std": 0.021228249416784115,
+        "recall_accuracy_mean": 0.7454166666666667,
+        "recall_accuracy_std": 0.011242281302693368,
+        "eta_mean_mean": 0.08423802542750554,
+        "eta_mean_std": 0.015470528565910843,
+        "eta_std_mean": 0.02289266543084888,
+        "eta_std_std": 0.002911964270085493,
+        "plastic_norm_mean_mean": 0.0002485969481401582,
+        "plastic_norm_mean_std": 0.00013290401481101858,
+        "plastic_norm_std_mean": 0.00013195930639960446,
+        "plastic_norm_std_std": 6.782886531570093e-05,
+        "train_loss_mean": 0.5062978637859386,
+        "train_loss_std": 0.10701734302374738,
+        "train_eta_mean_mean": 0.07696954126720147,
+        "train_eta_mean_std": 0.013614992016604904,
+        "train_eta_std_mean": 0.020674016585076886,
+        "train_eta_std_std": 0.004513685148490843,
+        "train_plastic_norm_mean_mean": 0.00019702273139610922,
+        "train_plastic_norm_mean_std": 8.879246980065212e-05,
+        "train_plastic_norm_std_mean": 0.00010592969733716602,
+        "train_plastic_norm_std_std": 4.421862768614679e-05,
+        "epoch_mean": 2.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "seq_length": 5,
+        "delay": 20,
+        "vocab_size": 10,
+        "dataset_size": 50,
+        "device": "cpu"
+      },
+      "training_config": {
+        "epochs": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0,
+        "log_interval": 50
+      },
+      "source_file": "copy_delay20_rule-gradient.json"
+    },
+    "hebbian": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.34503211921852045,
+        "loss_std": 0.008879653516012193,
+        "recall_accuracy_mean": 0.7270833333333333,
+        "recall_accuracy_std": 0.007168604389202173,
+        "eta_mean_mean": 0.00043438349033064977,
+        "eta_mean_std": 0.00010412231734227564,
+        "eta_std_mean": 8.760532876279476e-05,
+        "eta_std_std": 3.181450850156923e-05,
+        "plastic_norm_mean_mean": 0.001536439004498862,
+        "plastic_norm_mean_std": 0.0005960472821606235,
+        "plastic_norm_std_mean": 0.001273676152899757,
+        "plastic_norm_std_std": 0.00047565446732694813,
+        "train_loss_mean": 0.467361997583861,
+        "train_loss_std": 0.026646495629264105,
+        "train_eta_mean_mean": 0.0005230658581531707,
+        "train_eta_mean_std": 9.852383776379243e-05,
+        "train_eta_std_mean": 0.00013572328126868315,
+        "train_eta_std_std": 5.392617577187606e-06,
+        "train_plastic_norm_mean_mean": 0.0012205401124236242,
+        "train_plastic_norm_mean_std": 0.00036327323931836,
+        "train_plastic_norm_std_mean": 0.0010611497212741057,
+        "train_plastic_norm_std_std": 0.0002451101339094082,
+        "epoch_mean": 2.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "seq_length": 5,
+        "delay": 20,
+        "vocab_size": 10,
+        "dataset_size": 50,
+        "device": "cpu"
+      },
+      "training_config": {
+        "epochs": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0,
+        "log_interval": 50
+      },
+      "source_file": "copy_delay20_rule-hebbian.json"
+    },
+    "none": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.4147337345577906,
+        "loss_std": 0.104771354355725,
+        "recall_accuracy_mean": 0.7208333333333333,
+        "recall_accuracy_std": 0.02462919451021941,
+        "eta_mean_mean": 0.0,
+        "eta_mean_std": 0.0,
+        "eta_std_mean": 0.0,
+        "eta_std_std": 0.0,
+        "plastic_norm_mean_mean": 0.0,
+        "plastic_norm_mean_std": 0.0,
+        "plastic_norm_std_mean": 0.0,
+        "plastic_norm_std_std": 0.0,
+        "train_loss_mean": 0.48707026881556353,
+        "train_loss_std": 0.1508428932607172,
+        "train_eta_mean_mean": 0.0,
+        "train_eta_mean_std": 0.0,
+        "train_eta_std_mean": 0.0,
+        "train_eta_std_std": 0.0,
+        "train_plastic_norm_mean_mean": 0.0,
+        "train_plastic_norm_mean_std": 0.0,
+        "train_plastic_norm_std_mean": 0.0,
+        "train_plastic_norm_std_std": 0.0,
+        "epoch_mean": 2.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "seq_length": 5,
+        "delay": 20,
+        "vocab_size": 10,
+        "dataset_size": 50,
+        "device": "cpu"
+      },
+      "training_config": {
+        "epochs": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0,
+        "log_interval": 50
+      },
+      "source_file": "copy_delay20_rule-none.json"
+    }
+  },
+  "cue_reward": {
+    "gradient": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.03540959777362032,
+        "loss_std": 0.007844033253011223,
+        "query_loss_mean": 0.06435541456395981,
+        "query_loss_std": 0.02039692917695893,
+        "eta_mean_mean": 0.09297476206595699,
+        "eta_mean_std": 0.020983345403896528,
+        "eta_std_mean": 0.00217530114953278,
+        "eta_std_std": 0.001115282003849774,
+        "plastic_norm_mean_mean": 1.1118611441726194e-06,
+        "plastic_norm_mean_std": 8.954249450570132e-07,
+        "plastic_norm_std_mean": 6.916855056990994e-07,
+        "plastic_norm_std_std": 5.293063157855869e-07,
+        "train_loss_mean": 0.04333057733640696,
+        "train_loss_std": 0.009868456605132955,
+        "train_eta_mean_mean": 0.09389221395909164,
+        "train_eta_mean_std": 0.020409429642397826,
+        "train_eta_std_mean": 0.006050589317787516,
+        "train_eta_std_std": 0.0008398732926211272,
+        "train_plastic_norm_mean_mean": 1.2506934947529672e-06,
+        "train_plastic_norm_mean_std": 8.774369072827137e-07,
+        "train_plastic_norm_std_mean": 7.926601522509224e-07,
+        "train_plastic_norm_std_std": 5.242068951261891e-07,
+        "epoch_mean": 4.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "num_pairs": 8,
+        "cue_dim": 20,
+        "dataset_size": 100,
+        "reward_range": [
+          0.0,
+          1.0
+        ]
+      },
+      "training_config": {
+        "epochs": 4,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0
+      },
+      "source_file": "cue_rule-gradient.json"
+    },
+    "hebbian": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.03661718256298687,
+        "loss_std": 0.013980789379447162,
+        "query_loss_mean": 0.06517219061095174,
+        "query_loss_std": 0.03588631652545806,
+        "eta_mean_mean": 0.00022716370202942925,
+        "eta_mean_std": 3.218385840335374e-05,
+        "eta_std_mean": 1.830400227172107e-05,
+        "eta_std_std": 4.102361289008812e-06,
+        "plastic_norm_mean_mean": 0.0002608183848588889,
+        "plastic_norm_mean_std": 4.4986956084748846e-05,
+        "plastic_norm_std_mean": 0.00022111428734860323,
+        "plastic_norm_std_std": 3.7733088074422504e-05,
+        "train_loss_mean": 0.04569604718902459,
+        "train_loss_std": 0.00659767547899708,
+        "train_eta_mean_mean": 0.0002440102259303482,
+        "train_eta_mean_std": 3.070951638828465e-05,
+        "train_eta_std_mean": 2.767963397041342e-05,
+        "train_eta_std_std": 2.3444013539695945e-06,
+        "train_plastic_norm_mean_mean": 0.00024331176267729403,
+        "train_plastic_norm_mean_std": 3.4902395173679904e-05,
+        "train_plastic_norm_std_mean": 0.00020718859227461422,
+        "train_plastic_norm_std_std": 2.720228758870551e-05,
+        "epoch_mean": 4.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "num_pairs": 8,
+        "cue_dim": 20,
+        "dataset_size": 100,
+        "reward_range": [
+          0.0,
+          1.0
+        ]
+      },
+      "training_config": {
+        "epochs": 4,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0
+      },
+      "source_file": "cue_rule-hebbian.json"
+    },
+    "none": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.02685797379906572,
+        "loss_std": 0.010048146390696462,
+        "query_loss_mean": 0.05297599345298417,
+        "query_loss_std": 0.019998935349081093,
+        "eta_mean_mean": 0.0,
+        "eta_mean_std": 0.0,
+        "eta_std_mean": 0.0,
+        "eta_std_std": 0.0,
+        "plastic_norm_mean_mean": 0.0,
+        "plastic_norm_mean_std": 0.0,
+        "plastic_norm_std_mean": 0.0,
+        "plastic_norm_std_std": 0.0,
+        "train_loss_mean": 0.04485615511114399,
+        "train_loss_std": 0.005778699375179146,
+        "train_eta_mean_mean": 0.0,
+        "train_eta_mean_std": 0.0,
+        "train_eta_std_mean": 0.0,
+        "train_eta_std_std": 0.0,
+        "train_plastic_norm_mean_mean": 0.0,
+        "train_plastic_norm_mean_std": 0.0,
+        "train_plastic_norm_std_mean": 0.0,
+        "train_plastic_norm_std_std": 0.0,
+        "epoch_mean": 4.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "num_pairs": 8,
+        "cue_dim": 20,
+        "dataset_size": 100,
+        "reward_range": [
+          0.0,
+          1.0
+        ]
+      },
+      "training_config": {
+        "epochs": 4,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0
+      },
+      "source_file": "cue_rule-none.json"
+    }
+  },
+  "few_shot_regression": {
+    "gradient": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.8227966410342208,
+        "loss_std": 0.01904841845502055,
+        "query_loss_mean": 1.5894382945503127,
+        "query_loss_std": 0.03793920340397531,
+        "eta_mean_mean": 0.11529732479858729,
+        "eta_mean_std": 0.009261008047814087,
+        "eta_std_mean": 0.014111790390935455,
+        "eta_std_std": 0.006590617488120289,
+        "plastic_norm_mean_mean": 2.3039583014997917e-05,
+        "plastic_norm_mean_std": 9.255392560873804e-06,
+        "plastic_norm_std_mean": 2.12964869851382e-05,
+        "plastic_norm_std_std": 9.810680764369466e-06,
+        "train_loss_mean": 0.991793465813001,
+        "train_loss_std": 0.013540766294443294,
+        "train_eta_mean_mean": 0.11681797973439097,
+        "train_eta_mean_std": 0.01229636146585813,
+        "train_eta_std_mean": 0.016511186649253714,
+        "train_eta_std_std": 0.005415640806725918,
+        "train_plastic_norm_mean_mean": 2.1809652546709502e-05,
+        "train_plastic_norm_mean_std": 7.514026597718267e-06,
+        "train_plastic_norm_std_mean": 1.8836179427729067e-05,
+        "train_plastic_norm_std_std": 7.540710150452082e-06,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "input_dim": 3,
+        "k_support": 10,
+        "k_query": 10,
+        "dataset_size": 150,
+        "weight_scale": 1.0,
+        "bias_scale": 1.0
+      },
+      "training_config": {
+        "epochs": 5,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0
+      },
+      "source_file": "regression_rule-gradient.json"
+    },
+    "hebbian": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 0.7980783161104142,
+        "loss_std": 0.03610835280293779,
+        "query_loss_mean": 1.5458547529725417,
+        "query_loss_std": 0.06437943787065704,
+        "eta_mean_mean": 0.00027825338083979054,
+        "eta_mean_std": 6.81468922675204e-05,
+        "eta_std_mean": 4.294730324143432e-05,
+        "eta_std_std": 1.4204116798938797e-05,
+        "plastic_norm_mean_mean": 0.0002872184164503248,
+        "plastic_norm_mean_std": 0.0001089967214559243,
+        "plastic_norm_std_mean": 0.0002382831704903192,
+        "plastic_norm_std_std": 8.473515714023128e-05,
+        "train_loss_mean": 0.9853340987563133,
+        "train_loss_std": 0.09121047134131774,
+        "train_eta_mean_mean": 0.0003080358262369474,
+        "train_eta_mean_std": 7.011273617130826e-05,
+        "train_eta_std_mean": 6.121936080711465e-05,
+        "train_eta_std_std": 1.3459031039887038e-05,
+        "train_plastic_norm_mean_mean": 0.0002618481327816337,
+        "train_plastic_norm_mean_std": 0.00010738635955873731,
+        "train_plastic_norm_std_mean": 0.00022427715706215866,
+        "train_plastic_norm_std_std": 9.242822637183739e-05,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "input_dim": 3,
+        "k_support": 10,
+        "k_query": 10,
+        "dataset_size": 150,
+        "weight_scale": 1.0,
+        "bias_scale": 1.0
+      },
+      "training_config": {
+        "epochs": 5,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0
+      },
+      "source_file": "regression_rule-hebbian.json"
+    },
+    "none": {
+      "dataset": null,
+      "aggregate": {
+        "num_runs": 3,
+        "loss_mean": 1.0314991864702052,
+        "loss_std": 0.10951154785211016,
+        "query_loss_mean": 1.9966285949726832,
+        "query_loss_std": 0.26608074616368177,
+        "eta_mean_mean": 0.0,
+        "eta_mean_std": 0.0,
+        "eta_std_mean": 0.0,
+        "eta_std_std": 0.0,
+        "plastic_norm_mean_mean": 0.0,
+        "plastic_norm_mean_std": 0.0,
+        "plastic_norm_std_mean": 0.0,
+        "plastic_norm_std_std": 0.0,
+        "train_loss_mean": 0.9326378889216317,
+        "train_loss_std": 0.07662746404848494,
+        "train_eta_mean_mean": 0.0,
+        "train_eta_mean_std": 0.0,
+        "train_eta_std_mean": 0.0,
+        "train_eta_std_std": 0.0,
+        "train_plastic_norm_mean_mean": 0.0,
+        "train_plastic_norm_mean_std": 0.0,
+        "train_plastic_norm_std_mean": 0.0,
+        "train_plastic_norm_std_std": 0.0,
+        "epoch_mean": 5.0,
+        "epoch_std": 0.0
+      },
+      "task_config": {
+        "input_dim": 3,
+        "k_support": 10,
+        "k_query": 10,
+        "dataset_size": 150,
+        "weight_scale": 1.0,
+        "bias_scale": 1.0
+      },
+      "training_config": {
+        "epochs": 5,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "clip_norm": 5.0
+      },
+      "source_file": "regression_rule-none.json"
+    }
+  },
+  "unknown": {
+    "unknown": {
+      "dataset": null,
+      "aggregate": {},
+      "task_config": {},
+      "training_config": {},
+      "source_file": "summary.json"
+    }
+  }
+}
